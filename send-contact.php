@@ -41,7 +41,7 @@ foreach ($requiredEnv as $key) {
         error_log("Missing .env value: {$key}");
 
         header(
-            'Location: /website/contact.php?status=error'
+            'Location: /contact.php?status=error'
         );
 
         exit;
@@ -56,7 +56,7 @@ foreach ($requiredEnv as $key) {
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 
     header(
-        'Location: /website/contact.php'
+        'Location: /contact.php'
     );
 
     exit;
@@ -70,7 +70,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 if (!empty($_POST['website'] ?? '')) {
 
     header(
-        'Location: /website/contact.php?status=success'
+        'Location: /contact.php?status=success'
     );
 
     exit;
@@ -109,7 +109,7 @@ if (
 ) {
 
     header(
-        'Location: /website/contact.php?status=error'
+        'Location: /contact.php?status=error'
     );
 
     exit;
@@ -123,7 +123,7 @@ if (
 if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 
     header(
-        'Location: /website/contact.php?status=error'
+        'Location: /contact.php?status=error'
     );
 
     exit;
@@ -145,7 +145,7 @@ if (
 ) {
 
     header(
-        'Location: /website/contact.php?status=error'
+        'Location: /contact.php?status=error'
     );
 
     exit;
@@ -603,7 +603,7 @@ try {
     ================================================= */
 
     header(
-        'Location: /website/contact.php?status=success'
+        'Location: /contact.php?status=success'
     );
 
     exit;
@@ -627,7 +627,7 @@ try {
     ================================================= */
 
     header(
-        'Location: /website/contact.php?status=error'
+        'Location: /contact.php?status=error'
     );
 
     exit;

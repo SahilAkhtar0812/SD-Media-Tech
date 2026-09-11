@@ -70,7 +70,7 @@ include __DIR__ . '/includes/navbar.php';
                             <span>Email Us</span>
 
                             <strong>
-                                akhtarsahil@gmail.com
+                                akhtarsahil0812@gmail.com
                             </strong>
 
                         </div>
@@ -175,7 +175,7 @@ include __DIR__ . '/includes/navbar.php';
                 <!-- CONTACT FORM -->
 
                 <form
-                    action="/website/send-contact.php"
+                    action="/send-contact.php"
                     method="POST"
                     class="contact-main-form"
                 >

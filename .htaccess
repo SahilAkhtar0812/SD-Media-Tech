@@ -1,0 +1,14 @@
+# Disable directory browsing
+Options -Indexes
+
+
+# Protect .env
+<Files ".env">
+    Require all denied
+</Files>
+
+
+# Protect all hidden files such as .git and .htaccess
+<FilesMatch "^\.">
+    Require all denied
+</FilesMatch>

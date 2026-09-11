@@ -276,7 +276,7 @@ include __DIR__ . "/includes/navbar.php";
                     <div class="portfolio-image">
 
                         <img
-                            src="/website/assets/images/project-1.webp"
+                            src="/assets/images/project-1.webp"
                             alt="Performance marketing landing page project by SD Media Tech"
                             width="800"
                             height="520"
@@ -390,7 +390,7 @@ include __DIR__ . "/includes/navbar.php";
                     <div class="portfolio-image">
 
                         <img
-                            src="/website/assets/images/project-2.webp"
+                            src="/assets/images/project-2.webp"
                             alt="Professional corporate business website project"
                             width="800"
                             height="520"
@@ -503,7 +503,7 @@ include __DIR__ . "/includes/navbar.php";
                     <div class="portfolio-image">
 
                         <img
-                            src="/website/assets/images/project-3.webp"
+                            src="/assets/images/project-3.webp"
                             alt="Laravel ecommerce website project with product catalog and cart"
                             width="800"
                             height="520"
@@ -616,7 +616,7 @@ include __DIR__ . "/includes/navbar.php";
                     <div class="portfolio-image">
 
                         <img
-                            src="/website/assets/images/project-4.webp"
+                            src="/assets/images/project-4.webp"
                             alt="Online learning web application project"
                             width="800"
                             height="520"
@@ -729,7 +729,7 @@ include __DIR__ . "/includes/navbar.php";
                     <div class="portfolio-image">
 
                         <img
-                            src="/website/assets/images/project-5.webp"
+                            src="/assets/images/project-5.webp"
                             alt="Bank management system web application dashboard"
                             width="800"
                             height="520"
@@ -838,7 +838,7 @@ include __DIR__ . "/includes/navbar.php";
                     <div class="portfolio-image">
 
                         <img
-                            src="/website/assets/images/project-6.webp"
+                            src="/assets/images/project-6.webp"
                             alt="Lead generation advertising campaign landing page"
                             width="800"
                             height="520"

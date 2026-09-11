@@ -64,7 +64,7 @@
 
    <link
     rel="stylesheet"
-    href="/website/assets/css/style.css"
+    href="/assets/css/style.css"
 >
 
 </head>
